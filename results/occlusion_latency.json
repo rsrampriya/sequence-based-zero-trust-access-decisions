@@ -1,0 +1,17 @@
+{
+  "occlusion_one_window_incl_forward": {
+    "median_ms": 2.4611000008007977,
+    "p95_ms": 4.75690500024939,
+    "p99_ms": 5.676390002954577
+  },
+  "plain_forward_one_window": {
+    "median_ms": 1.696299999821349,
+    "p95_ms": 2.938084999186685,
+    "p99_ms": 3.8658490004308987
+  },
+  "n_reps": 2000,
+  "T": 10,
+  "model": "results\\models\\lstm_42.keras",
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1"
+}

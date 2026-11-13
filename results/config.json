@@ -1,0 +1,43 @@
+{
+  "data_dir": "r4.2",
+  "arrays_dir": null,
+  "out": "../full/results_final",
+  "backend": "keras",
+  "seeds": [
+    42,
+    100,
+    2024,
+    777,
+    999
+  ],
+  "T": 10,
+  "n_train": 500000,
+  "n_test_normal": 9000,
+  "n_anom": 1000,
+  "epochs": 10,
+  "batch": 512,
+  "val_split": 0.1,
+  "patience": 3,
+  "t_init_pct": 90.0,
+  "q": 0.01,
+  "classical_subset": 50000,
+  "eval_seed": 2026,
+  "n_boot": 1000,
+  "drift_train_months": 6,
+  "drift_shift_start": 9,
+  "drift_shift_len": 3,
+  "drift_p_max": 0.05,
+  "drift_normals_per_month": 3000,
+  "drift_buffer": 50000,
+  "n_sel": 2000,
+  "contam_rates": [
+    0.01,
+    0.05
+  ],
+  "window_sizes": [
+    5,
+    20
+  ],
+  "force": false,
+  "quick": false
+}
