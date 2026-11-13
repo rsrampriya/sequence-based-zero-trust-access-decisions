@@ -1,0 +1,5 @@
+results/models/
+__pycache__/
+*.pkl
+smoke_results/
+tests/synthetic_r4.2/
